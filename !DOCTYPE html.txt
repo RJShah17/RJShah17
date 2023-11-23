@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homed - Your Rental Solutions</title>
+    <style>
+        /* Your existing styles remain unchanged */
+
+        /* New style for the buttons */
+        .user-buttons {
+            text-align: center;
+        }
+
+        .user-buttons button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Homed</h1>
+        <p>Your tagline or a brief description of your startup goes here.</p>
+    </header>
+
+    <section>
+        <div class="user-buttons">
+            <button onclick="openLoginForm('tenant')">Tenant</button>
+            <button onclick="openLoginForm('landlord')">Landlord</button>
+            <button onclick="openLoginForm('agent')">Agent</button>
+        </div>
+    </section>
+
+    <script>
+        function openLoginForm(userType) {
+            // You can add your login/signup logic here based on the userType
+            alert(`Open ${userType} login/signup form`);
+        }
+    </script>
+
+    <section>
+        <h2>About Us</h2>
+        <p>
+            Welcome to the official webpage of Homed! We're dedicated to creating a transparent bridge between tenants
+            and landlords/agents by providing comprehensive databases and services related to rental properties.
+        </p>
+    </section>
+
+    <section>
+        <!-- ... (rest of your content) ... -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Homed. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
